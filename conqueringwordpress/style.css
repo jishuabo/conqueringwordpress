@@ -1,0 +1,104 @@
+/*
+Theme Name:     Conquering WordPress
+Theme URI:
+Description:    My Child theme
+Author:         Joshua Beckerman & David Tristman
+Author URI:
+Template:       twentytwelve
+Version:        1
+*/
+
+@import url("../twentytwelve/style.css");
+
+body, body.custom-font-enabled {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.site-header {
+	padding: 0;
+	text-align: center;
+}
+
+.site-header h1, .site-header h2{
+	text-align: center;
+}
+
+#searchformtop{
+	margin-top: 34px;
+}
+
+#stop{
+	width: 200px;
+}
+
+#searchsubmittop{
+	color: #FFF;
+	background-color: #CCC;
+	background-image: none;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	-webkit-appearance: none;
+}
+
+.home .site-content article {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.gallery img {
+	border: none !important;
+}
+
+.nav-menu{
+	text-align: center;
+}
+
+
+.main-navigation{
+	margin-top: 34px;
+}
+
+.main-navigation div.nav-menu > ul li:last-child {
+	margin-right: 0;
+}
+
+.responsive-slider.flexslider .slides img{
+	width: 100%;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+/* Max width of 480 pixels. */
+@media screen and (max-width: 480px) {
+	#stop{
+		width: 150px;
+	}
+	
+	.main-navigation, #searchform2{
+		margin-top: 24px;
+	}
+	.gallery-item{
+		float: none !important;
+		width: auto !important;
+	}
+	.gallery-item a, .gallery-caption {
+		width: 100%;
+	}
+}
+
+
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		text-align: center;
+		border: none;
+	}
+}
