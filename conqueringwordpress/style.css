@@ -68,6 +68,10 @@ body, body.custom-font-enabled {
 	margin-right: 0;
 }
 
+.main-navigation div.nav-menu ul.children li:last-child {
+	margin-right: 40px;
+}
+
 .responsive-slider.flexslider .slides img{
 	width: 100%;
 }
