@@ -64,11 +64,11 @@ body, body.custom-font-enabled {
 	margin-top: 34px;
 }
 
-.main-navigation div.nav-menu > ul li:last-child {
+.main-navigation div > ul li:last-child {
 	margin-right: 0;
 }
 
-.main-navigation div.nav-menu ul.children li:last-child {
+.main-navigation div ul.children li:last-child {
 	margin-right: 40px;
 }
 
