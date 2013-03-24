@@ -68,7 +68,7 @@ body, body.custom-font-enabled {
 	margin-right: 0;
 }
 
-.main-navigation div ul.children li:last-child {
+.main-navigation div ul.children li:last-child,  .main-navigation div ul.sub-menu li:last-child{
 	margin-right: 40px;
 }
 
